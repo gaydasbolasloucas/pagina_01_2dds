@@ -1,103 +1,55 @@
-*{
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    }
-    
-    body{
-    font-family: "Poppins", sans-serif;
-    }
-    
-    header{
-    background-color: #d4d8de;
-    color: white;
-    width: 100%;
+    background-color: #f4f4f9;
+    color: #333;
+   }
+   /* Estilização das seções */
+   .section {
     padding: 20px;
-    
-    }
-    .cabecalho-itens{
-    max-width: 1980px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-    .cabecalho-imagem{
-    width: 10%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    }
-    .titulo_site{
-    padding: 50px;
-    text-align: center;
-    width: 50%;
-    font: 30px;
-    }
-    .sociais{
-    display: flex;
-    justify-content: flex-end;
-    width: 25%;
-    padding-right: 30px;
-    }
-    .banner1{
-    display: flex;
-    justify-content: center;
-    }
-    
-    .estudante_titulo{
-    padding: 50px;
-    text-align: center;
-    }
-    
-    .estudante-nome{
-    text-align: center;
-    }
-    .estudante-imagem{
-    width: 120px;
-    }
-    
-    .estudante-icone{
-    width: 38px;
-    padding: 4px 8px;
-    }
-    
-    .estudante{
-    background-image: background-color(#FFF6E9);
-    padding: 24px 0;
-    }
-    
-    .estudante.div{
-    text-align: center;
-    padding: 24px 0;
-    }
-    .estudantes_todos{
-    display: flex;
-    justify-content: space-around;
-    }
-    
-    .escola{
-    background-image: linear-gradient(#40A2E3,#7FC2EF);
-    color: white;
-    display: flex;
-    justify-content:center;
-    padding: 24px 0;
-    text-align:center;
-    display:block;
-    
-    }
-    .escola-titulo{
-    padding: 50px;
-    text-align: center;
-    }
-    
-    .logo_rodape{
-    height: 80px;
-    padding: 12px 0;
-    
-    
-    }
-    .link{
-    color: #ffffff;
-    text-decoration: none;
-    }
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   }
+   /* Cores para cada seção */
+   #section1 {
+    background-color: #e3f2fd; /* Azul claro */
+    color: #0d47a1; /* Azul escuro */
+   }
+   #section2 {
+    background-color: #fce4ec; /* Rosa claro */
+    color: #880e4f; /* Rosa escuro */
+   }
+   #section3 {
+    background-color: #e8f5e9; /* Verde claro */
+    color: #1b5e20; /* Verde escuro */
+}
+/* Estilo dos títulos */
+h1 {
+ font-size: 24px;
+ margin-bottom: 10px;
+ text-align: center;
+}
+h2 {
+ font-size: 18px;
+ margin-bottom: 15px;
+ text-align: center;
+ font-style: italic;
+}
+/* Estilo do texto */
+p {
+ font-size: 16px;
+ line-height: 1.6;
+ text-align: justify;
+}
+/* Estilo das imagens */
+img {
+ display: block;
+ margin: 15px auto;
+ max-width: 100%;
+ border-radius: 5px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
